@@ -8,4 +8,4 @@ from helpers import RandomCourierGeneration
 def create_courier():
     data_payload = RandomCourierGeneration().generate_random_courier_data()
     yield data_payload
-    requests.post(Urls.URL_MAIN + Urls.URL_CREATE_COURIER, data=data_payload)
+    requests.post(Urls.url_main + Urls.url_create_courier, data=data_payload)

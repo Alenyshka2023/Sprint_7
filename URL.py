@@ -1,5 +1,5 @@
 class Urls:
-    URL_MAIN = 'http://qa-scooter.praktikum-services.ru'
-    URL_CREATE_COURIER = '/api/v1/courier/'
-    URL_LOGIN_COURIER = '/api/v1/courier/login'
-    URL_ORDER = '/api/v1/orders'
+    url_main = 'http://qa-scooter.praktikum-services.ru'
+    url_create_courier = '/api/v1/courier/'
+    url_login_courier = '/api/v1/courier/login'
+    url_order = '/api/v1/orders'
